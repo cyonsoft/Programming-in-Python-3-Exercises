@@ -72,7 +72,7 @@ Nine = ["  **** ",
         "  ***  "]
 number = [Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine]
 
-original_number = input('input your integer')
+original_number = sys.argv[1] #input('input your integer')
 line = 0
 
 try:
